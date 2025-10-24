@@ -1,0 +1,216 @@
+API_key = CKLQPE42VQ3FWI1YSYNG
+API_secret = 7BZjoazgCQOg1OiVRTyKJdtxJXcGSfjgzynqkbhQ
+
+curl --request POST 'https://broker-api.alpaca.markets/v1/trading/accounts/{account_id}/orders' \
+--header 'Apca-Api-Key-Id: <KEY>' \
+--header 'Apca-Api-Secret-Key: <SECRET>' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+  "symbol": "AAPL",
+  "qty": 1,
+  "side": "buy",
+  "type": "market",
+  "time_in_force": "day"
+}'
+
+SIPs feed (Securities information processor)
+ - Access on UTPPlan and CTA Plan website
+ 
+ 
+Alapaca trading
+google finance
+yahoo finance
+Possible urls: [
+	https://www.nasdaq.com/market-activity
+	https://www.nasdaq.com/market-activity/stocks/screener
+]
+
+
+Scrapers:
+----------------------------
+	News:
+		Src:
+			Fox
+			CNBC
+			CNN
+			MSN
+		Metrics:
+		Functions:
+
+----------------------------
+
+	Social Media:
+		Src:
+			LinkedIn
+			Twitter
+			Youtube
+		Metrics:
+		Functions:
+
+----------------------------
+		
+	Real Estate:
+		Src:
+			Zillow
+			Loopnet
+			Realtor.com
+			Redfin
+		Metrics:
+			Prices
+			Cap Rates
+			Mortgage Rates
+			Local Rent
+			Condition
+			Amenities
+		Functions:
+			Return list of places that fit specified conditions
+			Return avg {Any metric}
+			Return all metrics
+
+----------------------------			
+	Stock Data:
+		Src:
+			NASDAQ
+			NYSE
+			DOW JONES
+			Yahoo Finance
+		Metrics:
+			Ticker
+			Price
+			Buy Volume
+			Sell Volume
+			Cap Rate
+			Dividend
+			Yield %
+			
+----------------------------
+Tools:
+	IPLookup
+	SEO Checker
+	Youtube download
+	Youtube to mp3/mp4
+	Osint
+	General Web Scraper
+	PDF to text
+	(file converters)
+	encode/decode (text to: ascii, unicode, base64, etc.)
+	QRcode generator/decoder
+	IP spoofer (for crawlers??)
+	HTML to audio book (mp3/mp4)
+	
+----------------------------
+Misc:
+	Daily Astrology/horoscope/numerology
+	
+
+https://www.sec.gov/Archives/edgar/data/1365737/000143774920020295/xslF345X03/rdgdoc.xml
+
+			
+incoming request
+
+// BALANCE SHEET
+
+{
+  "totalAssets": {
+    "CurrentAssets": {
+      "Receivables": {
+        "AccountsReceivable": "",
+      },
+      "Inventory": {
+        "RawMaterials": "",
+        "WorkInProcess": "",
+        "FinishedGoods": "",
+      },
+      "CashAndCashEquivalent": "",
+      "OtherShortTermInvestments": "",
+      "PrepaidAssets": "",
+      "OtherCurrentAssets": "",
+    },
+    "TotalNonCurrentAssets": {
+      "NetPPE": {
+        "GrossPPE": {
+          "Properties": "",
+          "LandAndImprovements": "",
+          "BuildingsAndImprovements": "",
+          "MachineryFurnitureEquipment": "",
+          "OtherProperties": "",
+          "ConstructionInProgress": "",
+        },
+        "AccumulatedDepreciation": "",
+      },
+      "GoodwillAndOtherIntangibleAssets": {
+        "Goodwill": "",
+        "OtherIntangibleAssets": "",
+      },
+      "InvestmentsAndAdvances": {
+        "InvestmentInFinancialAssets": {
+          "AvailableForSaleSecurities": "",
+        },
+        "OtherInvestments": "",
+      },
+      "NonCurrentAccountsReceivable": "",
+      "NonCurrentDeferredAssets": {
+        "NonCurrentDeferredTaxesAssets": "",
+      },
+      "NonCurrentPrepaidAssets": "",
+      "OtherNonCurrentAssets": "",
+    },
+  },
+  "TotalLiabilitiesNetMinorityInterest": {
+    "CurrentLiabilities": {},
+    "TotalNonCurrentLiabilitiesNetMinorityInterest": {
+      "LongTermDebtAndCapitalLeaseObligation": {
+        "LongTermDebt": "",
+        "LongTermCapitalLeaseObligation": "",
+      },
+      "NonCurrentDeferredLiabilities": {
+        "NonCurrentDeferredTaxesLiabilities": "",
+      	"NonCurrentDeferredRevenue": "",
+      },
+      "TradeandOtherPayablesNonCurrent": "",
+      "OtherNonCurrentLiabilities": "",
+    },
+  },
+  "TotalEquityGrossMinorityInterest": {
+    "StockholdersEquity": {
+      "CapitalStock": {
+        "PreferredStock": "",
+        "Common Stock": "",
+      },
+      "AdditionalPaidInCapital": "",
+      "RetainedEarnings": "",
+      "TreasuryStock": "",
+      "GainsLossesNotAffectingRetainedEarnings": {
+        "OtherEquityAdjustments": "",
+      },
+    },
+  },
+  "TotalCapitalization": "",
+  "CommonStockEquity": "",
+  "CapitalLeaseObligations": "",
+  "NetTangibleAssets": "",
+  "WorkingCapital": "",
+  "InvestedCapital": "",
+  "TangibleBookValue": "",
+  "TotalDebt": "",
+  "NetDebt": "",
+  "ShareIssued": "",
+  "OrdinarySharesNumber": "",
+}
+
+
+
+
+
+
+
+
+
+
+			
+
+			
+			
+			
+			
+
