@@ -24,8 +24,8 @@ jobs:
     name: Style
     runs-on: ubuntu-latest
 
-      steps:
-        - name: Check out code
+    steps:
+      - name: Check out code
         uses: actions/checkout@v4
 
       - name: Set up Go
@@ -35,4 +35,7 @@ jobs:
 
       - name: Auto-format
         run: go fmt
+
+      - name: Check formatting
+        run: test -z $(go fmt ./...)
 
