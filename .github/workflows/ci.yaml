@@ -1,10 +1,10 @@
 name: ci
 
 on:
-  pull_requests:
-    branches: - main
+  pull_request:
+    branches: [main]
   push:
-    branches: - main
+    branches: [main]
 
 jobs:
   tests:
